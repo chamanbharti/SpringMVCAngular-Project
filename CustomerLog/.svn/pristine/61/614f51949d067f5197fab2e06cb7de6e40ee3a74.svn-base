@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="form-element multi-field birthday" id="birthday-form-element">
+  
+	  <strong id="BirthdayLabel">Birthday</strong>
+	  <label id="month-label" class="month">
+		  <span id="BirthMonthHolder" >
+			  <select id="BirthMonth" name="BirthMonth" >
+				  <option value="">Month</option>
+				  <option value="01" >January</option>
+				  <option value="02" >February</option>
+				  <option value="03" >March</option>
+				  <option value="04" >April</option>
+				  <option value="05" >May</option>
+				  <option value="06" >June</option>
+				  <option value="07" >July</option>
+				  <option value="08" >August</option>
+				  <option value="09" >September</option>
+				  <option value="10" >October</option>
+				  <option value="11" > November</option>
+				  <option value="12" >December</option>
+			  </select>
+		  </span>
+	  </label>
+	  <label id="day-label" class="day">
+		  <strong>Day</strong>
+		  <input type="text" maxlength="2" value=""	  name="BirthDay" id="BirthDay" value="">
+	  </label>
+	  <label id="year-label" class="year">
+		  <strong>Year</strong>
+		  <input type="text" maxlength="4" value="" name="BirthYear" id="BirthYear" value="">
+	  </label>
+	
+  
+  
+  </div>
+</body>
+</html>

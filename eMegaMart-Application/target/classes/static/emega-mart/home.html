@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html ng-app="emegaMart">
+
+	<head>
+		<meta charset="utf-8">
+		<title>eMega-Mart:Home Page</title>
+		
+		<!-- CSS bootstrap file -->
+		<link href="./css/bootstrap.css" rel="stylesheet" />
+		<link href="./css/bootstrap-theme.css" rel="stylesheet" />
+		<link rel="stylesheet" href="./css/style.css">
+		
+		<!-- AngulaJS library file -->
+		<script type="text/javascript" src="./lib/angular.js"></script>
+		<script type="text/javascript" src="./lib/angular-resource.js"></script>
+		<script type="text/javascript" src="./lib/angular-route.js"></script>
+		
+		<script type="text/javascript">
+			angular.module("emegaMart", ["ngRoute"])
+				   .config(function($routeProvider) {
+				   		
+					   $routeProvider.when("/home", {
+						   templateUrl: "./views/main.html"
+					   });
+					   $routeProvider.when("/search", {
+						   templateUrl: "./views/search.html"
+					   });
+					   $routeProvider.when("/productList", {
+						   templateUrl: "./views/productList.html"
+					   });
+					   $routeProvider.when("/contactus", {
+						   templateUrl: "./views/contactus.html"
+					   });
+					   $routeProvider.when("/aboutus", {
+						   templateUrl: "./views/aboutus.html"
+					   });
+					   $routeProvider.when("/login", {
+						   templateUrl: "./views/login.html"
+					   });
+					   $routeProvider.otherwise({
+						   templateUrl: "./views/main.html"
+					   });
+				   });
+		</script>
+		
+		<!-- AngulaJS controller file -->
+		<script type="text/javascript" src="./controllers/LoginController.js"></script>
+	</head>
+	
+	<body>
+		
+		<header>
+			<ng-include src="'./views/header.html'"></ng-include>
+		</header>
+		
+		<div id="container" ng-controller="loginController">
+		
+			<nav>
+				<ng-include src="'./views/menu.html'"></ng-include>
+			</nav>
+			
+			<section>
+				<ng-view/>
+			</section>
+			
+			<footer>
+				<ng-include src="'./views/footer.html'"></ng-include>
+			</footer>
+			
+		</div>
+		
+	</body>
+	
+</html>

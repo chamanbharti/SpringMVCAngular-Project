@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>View Details</title>
+<style type="text/css">
+	#header{
+				background-color: green;
+				color: white;
+				text-align: center;
+				padding: 10px;
+			}
+	#nav{
+			background-color: red;
+			color:white;
+			text-align:center;
+			line-height: 30px;
+			height: 430px;
+			width: 150px;
+			float:left;
+			padding: 10px;
+		}
+	#section{
+				width: 1125px;
+				float: left;
+				padding: 10px;
+			}
+	#footer{
+				background-color: green;
+				color: white;
+				clear:both;
+				text-align: center;
+				padding: 10px;
+			}
+</style>
+</head>
+<body>
+	<div id="header">
+		<h1>Customer Details</h1>
+		
+	</div>
+	
+	<div id="nav">
+			
+			<img src="bharti.jpg" alt="Mountain View" style="width:160px;height:75px"><br>
+			Logged as Customer</td>
+			</br></br></br>
+			<a href="addCustomer.html">Add Customer</a>
+			</br></br></br></br>
+			<a href="search.html">Search Customer</a>
+			</br></br></br>
+			<a href="logout.html">Logout</a>
+		
+	</div>
+	
+	<div id="section">
+		<table border="1">
+			<tr>
+					<th>Customer's image</th>
+					<td></td>
+			</tr>
+			<tr>
+					<th>First Name</th>
+					<td></td>
+			</tr>
+			<tr>
+					<th>Last Name</th>
+					<td></td>
+			</tr>
+			<tr>
+					<th>Mobile NO</th>
+					<td></td>
+			</tr>
+			<tr>
+					<th>Telephone NO</th>
+					<td></td>
+			</tr>
+			<tr>
+				<th>Email ID</th>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Password</th>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Address</th>
+				<td></td>
+			</tr>
+			<tr>
+				<th>Pin No</th>
+				<td></td>
+			</tr>
+			<tr>
+					<th>Office Address</th>
+					<td></td>
+			</tr>
+			<tr>
+					<th>Pin No</th>
+					<td></td>
+			</tr>
+			<tr>
+					<th>Company Name</th>
+					<td></td>
+			</tr>
+			<tr>		
+				<th>Designation</th>
+				<td></td>
+			<tr>
+				<th>State</th>
+				<td></td>
+			<tr>
+			<tr>
+				<th>Country</th>
+				<td></td>
+			</tr>
+			
+		</table>
+	</div>
+	
+	
+	
+	
+	
+	
+	<div id="footer">
+					<footer>&copy; All copyright is reserved for Customer Log</footer>
+		</div>
+</body>
+</html>

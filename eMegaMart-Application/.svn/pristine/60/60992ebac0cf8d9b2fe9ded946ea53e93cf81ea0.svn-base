@@ -1,0 +1,7 @@
+server.port=8181
+spring.datasource.url=jdbc:mysql://localhost/EMEGA_MART
+spring.datasource.username=root
+spring.datasource.password=@kalim#2009
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto=update
